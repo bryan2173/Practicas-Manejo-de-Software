@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: steelblue;
+    color: #eee;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#tablero{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+#tablero .filaImpar p:nth-child(2n+1){ 
+    background-color: black; 
+    } 
+
+#tablero.filaparP:nth-child(2n){
+    background-color: black;
+}
